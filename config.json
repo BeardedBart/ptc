@@ -1,7 +1,10 @@
 {
     "density": "1.2255",
-    "revolutions": "2.400",
-    "diameter": "6.75",
-    "pitch": "5.01",
-    "units": "1"
+    "revolutions": "5000",
+    "diameter": 9,
+    "pitch": 4.5,
+    "speed": [
+        0
+    ],
+    "units": "0"
 }
