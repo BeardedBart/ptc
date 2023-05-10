@@ -5,7 +5,8 @@ It is an app that calculates thrust of a propeller (static and dynamic) of vario
 ## Formula
 
 ## Input data
-
+Config file takes input for the program.
+NOTE: if "units" is equal to 1, the units are SI units, if 0 - Imperial units
 ## Output
 
 ## WIP:
