@@ -62,14 +62,19 @@ def dynamic_formula(data):
     return force_o
 
 
-def choice():
-    """Function providing choice for static or dynamic thrust calculation - may be unnecessary"""
-
-
 def main():
     """General logic group for app"""
     data = setup()
-    print(dynamic_formula(data))
+    print("""
+          What do you want to calculate?
+          1) - static thrust;
+          2) - dynamic thrust
+          """)
+    setting = int(input("Chose 1 or 2: "))
+    if setting == 1:
+        print(static_formula(data))
+    if setting == 2:
+        print(dynamic_formula(data))
 
 
 if __name__ == '__main__':
